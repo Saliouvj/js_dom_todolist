@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./public/css/app.css">
+</head>
+<body>
+    <!-- <div class="titre text-center display-flex ">
+            <h1> MA TO DO LIST</h1>
+        </div> -->
+        
+    <section>
+        <div class="ligne">
+            <input class="todoInput" type="Votre tâche?" placeholder="Votre tâche?" >
+            <button type="button" id="addButton" class="btn btn-outline-primary">+ Add</button>
+        </div>
+        <div class="ligne"><h1>Ma To Do List</h1></div>
+        <div class="ligne">
+            <button id="btnMenu1" class="btn btn-primary" type="submit">Terminé</button>
+            <button id="btnMenu2" class="btn btn-primary" type="submit">À faire</button>
+            <button id="btnMenu3" class="btn btn-primary" type="submit">Tout</button>
+        </div>
+        <!-- TACHES LISTE -->
+        <div class="todoList"></div>
+        <!-- BOUTON CLEAR -->
+        <div id= "clearBtn" class="ligne"><button class="btn btn-danger" type="submit">Clear List</button></div>
+    </section>
+    <!-- JS -->
+    <script type="module" src="./public/js/function.js"></script>
+    <!-- JQUERY -->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <!--  BOOTSTRAP -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
